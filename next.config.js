@@ -4,6 +4,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  extends: [
+    'plugin:@next/next/recommended',
+  ],
 };
 
 module.exports = nextConfig;
